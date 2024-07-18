@@ -1,0 +1,86 @@
+---
+title: TRI-HERMES
+description: Get started building your docs site with Starlight.
+template: splash
+hero:
+  tagline: TYPE-MOON Lore Compendium
+  image:
+    file: ../../assets/houston.webp
+  actions:
+    - text: Example Guide
+      link: /guides/example/
+      icon: right-arrow
+      variant: primary
+    - text: Join our Discord!
+      link: https://discord.gg/GzxxEwjzpU
+      icon: discord 
+---
+
+import { Card, LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+<Card>
+	# Fate/Grand Order
+		<CardGrid>
+			<LinkCard
+				title="Main Story"
+				href="fgo/main-story"
+			/>
+			<LinkCard
+				title="Events"
+				href="fgo/events"
+			/>
+			<LinkCard
+				title="Servants"
+
+				href="fgo/servants"
+			/>
+		</CardGrid>		
+</Card>
+<Card>
+	# Source Materials
+		<CardGrid>
+			<LinkCard
+				title="Light Novels"
+				href="source/light-novels"
+			/>
+			<LinkCard
+				title="Visual Novels"
+				href="source/visual-novels"
+			/>
+			<LinkCard
+				title="Drama CDs"
+				href="source/drama-cd"
+			/>
+			<LinkCard
+				title="Games"
+				href="source/games"
+			/>
+			<LinkCard
+				title="Anime & Manga"
+				href="source/anime-manga"
+			/>
+		</CardGrid>
+</Card>
+<Card>
+# Supplementals
+	<CardGrid>
+		<LinkCard
+			title="Materials"
+			href="meta/materials"
+		/>
+		<LinkCard
+			title="Interviews"
+			href="meta/interviews"
+		/>
+		<LinkCard
+			title="Bamboo Diary"
+			href="meta/bamboo-diary"
+		/>
+		<LinkCard
+			title="Community Content"
+			href="meta/community"
+		/>
+	</CardGrid>	
+</Card>
+</CardGrid>
