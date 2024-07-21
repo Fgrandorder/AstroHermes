@@ -7,6 +7,13 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'TRI-HERMES',
+			customCss: [
+				// Relative path to your custom CSS file
+				'./src/styles/custom.css',
+			],
+			components: {
+				// Override the respective default component.
+			},
 			social: {
 				github: 'https://github.com/r-grandorder/tri-hermes',
 				discord: 'https://discord.gg/GzxxEwjzpU',

@@ -1,0 +1,22 @@
+@media (min-width: 50rem) {
+    .hero:where(.astro-jbfsktt5) {
+      grid-template-columns: 7fr 4fr;
+      gap: 10%;
+      padding-block: clamp(2.5rem,calc(-3rem + 10vmin),10rem);
+    }
+}
+@media (min-width: 50rem) {
+    .hero:where(.astro-jbfsktt5) > img:where(.astro-jbfsktt5), .hero:where(.astro-jbfsktt5) > .hero-html:where(.astro-jbfsktt5) {
+      order: 2;
+      width: min(60%,25rem);
+    }
+  }
+  .card:where(.astro-v5tidmuc) {
+    --sl-card-border: var(--sl-color-purple);
+    --sl-card-bg: var(--sl-color-purple-low);
+    border: 1px solid var(--sl-color-gray-5);
+    background-color: var(--sl-color-black);
+    padding: clamp(1rem,calc(-2.875rem + 3vw),2.5rem);
+    flex-direction: column;
+    gap: clamp(0.5rem,calc(-0.875rem + 1vw),1rem);
+  }
